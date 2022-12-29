@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #925997;
+}
+
+.container {
+    background-color: #5ecc5e;
+    padding: 30px;
+    max-width: 460px;
+    width: 100%;
+    border: 10px solid #bd71bd;
+    border-radius: 3px;
+}
+
+.container .item {
+    display: flex;
+    padding: 12px 17px;
+    margin-bottom: 8px;
+    color: #fff;
+    background-color: #188d35;
+    justify-content: space-between;
+}
+
+.container .item .text {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.container .item i {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container .item i:hover {
+    cursor: pointer;
+    font-size: 20px;
+    color: #1eff00;
+}
