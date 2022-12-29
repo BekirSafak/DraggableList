@@ -1,5 +1,5 @@
 // ? Sortable özelliğinin kullanımı.
-let list = document.querySelector('.container');
+let list = document.querySelector('.items');
 // * Sıralamak istediğimiz öğelerin kapsayıcısı tanımlanmalı.
 
 new Sortable(list, {
