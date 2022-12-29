@@ -13,6 +13,13 @@ body {
     background-color: #925997;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #bd71bd;
+    font-weight: bold;
+}
+
 .container {
     background-color: #5ecc5e;
     padding: 30px;
